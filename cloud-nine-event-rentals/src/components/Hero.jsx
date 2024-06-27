@@ -1,10 +1,9 @@
 const Hero = () => {
   return (
     <div
-      className="hero min-h-screen"
+      className="hero h-5/6 fixed top-0 left-0 z-0 w-screen"
       style={{
-        backgroundImage:
-          "url(4.jpg)",
+        backgroundImage: "url(4.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-10"></div>
@@ -14,7 +13,7 @@ const Hero = () => {
           <h2 className="mb-5 text-slate-200 text-xl font-semibold ">
             Make Your Memories Last a Lifetime!
           </h2>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn btn-primary">Get in Contact!</button>
         </div>
       </div>
     </div>
