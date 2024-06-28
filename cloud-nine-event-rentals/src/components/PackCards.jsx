@@ -4,13 +4,13 @@ const PackCards = () => {
       <div className="card lg:card-side bg-transparent w-full lg:h-[600px] rounded-none">
         <div className="card-body bg-transparent flex justify-center">  
             <h2 className="card-title text-slate-400 text-6xl py-8 border-b-2 border-slate-400">Silver</h2>
-            {/* <div className="divider"></div> */}
             <ul className="text-black text-3xl pt-8">
               <li>Photobooth</li>
               <li>Digital copies of images, gifs, and boomerangs</li>
               <li>Props</li>
               <li>White backdrop</li>
             </ul>
+            {/* <p className="text-slate-500 flex flex-col text-md bottom-0 justify-end">from $150/hour</p> */}
         </div>
         <figure className="lg:w-2/5 w-full h-full overflow-hidden">
           <img
@@ -21,7 +21,7 @@ const PackCards = () => {
         </figure>
       </div>
 
-      <div className="card lg:card-side bg-transparent w-full lg:h-[600px] rounded-none ">
+       <div className="card lg:card-side bg-transparent w-full lg:h-[600px] rounded-none ">
         <figure className="order-last lg:order-first lg:w-2/5 w-full h-full overflow-hidden">
           <img
             src="3.jpg"
@@ -33,7 +33,6 @@ const PackCards = () => {
           <h2 className="card-title text-yellow-400 text-6xl grid text-right py-8 border-b-2 border-yellow-400">
             Gold
           </h2>
-          {/* <div className="divider"></div> */}
           <ul className="text-black text-3xl pt-8">
             <li>Photobooth</li>
             <li>Digital copies of images, gifs, and boomerangs</li>
@@ -41,8 +40,11 @@ const PackCards = () => {
             <li>White backdrop</li>
             <li>Physical photo strips printed immediately</li>
           </ul>
+          {/* <p className="text-slate-500 flex flex-col text-md bottom-0 justify-end">from $200/hour</p> */}
         </div>
-      </div>
+      </div> 
+
+
     </div>
   );
 };

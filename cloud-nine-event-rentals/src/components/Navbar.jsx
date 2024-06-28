@@ -13,7 +13,7 @@ const Navbar = () => {
   const background = useTransform(
     scrollYProgress,
     [0, 0.5482],
-    ["rgba(255, 255, 255, 0)", "rgba(99, 102, 241, 0.8)"]
+    ["rgba(99, 102, 241, 0)", "rgba(99, 102, 241, 0.8)"]
   );
 
   

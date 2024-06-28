@@ -19,6 +19,7 @@ const Packages = () => {
           <div className="h-16 " />
         </div>
         <div className="h-auto w-3/5 bg-transparent border-r-2 border-t-2 border-indigo-500" />
+        
       </div>
     </div>
   );
