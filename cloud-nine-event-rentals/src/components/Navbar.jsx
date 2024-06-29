@@ -61,20 +61,20 @@ const Navbar = () => {
           </li>
           </ul>
         </div>
-        <button onClick={()=>navigate("/")}className="btn btn-ghost font-medium text-2xl px-10">
+        <button onClick={()=>navigate("/")}className="btn btn-ghost font-medium text-2xl px-10 hover:bg-[#6366f1]">
           Cloud Nine Event Rentals
         </button>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-10 font-normal text-xl text-white">
           <li>
-            <button onClick={() => navigate("/packages")} className="">Packages</button>
+            <button onClick={() => navigate("/packages")} className="btn btn-ghost text-xl hover:bg-[#6366f1]">Packages</button>
           </li>
           <li>
-            <button onClick={()=> navigate("/aboutus")} className="">About Us</button>
+            <button onClick={()=> navigate("/aboutus")} className="btn btn-ghost text-xl hover:bg-[#6366f1]">About Us</button>
           </li>
           <li>
-            <button onClick={()=>navigate("/contact")} className="">Contact</button>
+            <button onClick={()=>navigate("/contact")} className="btn btn-ghost text-xl hover:bg-[#6366f1]">Contact</button>
           </li>
         </ul>
       </div>
