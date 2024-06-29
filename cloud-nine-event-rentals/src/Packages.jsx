@@ -20,15 +20,15 @@ const Packages = () => {
         </div>
         <div className="h-auto w-1/2 bg-transparent border-r-2 border-t-2 border-indigo-500" />
         <div className="w-full flex flex-row justify-around">
-          <div className="w-1/3 h-40 bg-transparent text-black text-center flex flex-col pt-8">
-            <h3 className="text-3xl text-indigo-500">Inflatable Tent</h3>
-            <p className="text-slate-500 text-md mt-auto">
+          <div className="w-1/2 md:w-1/3 h-40 bg-transparent text-black text-center flex flex-col pt-8">
+            <h3 className="text-xl md:text-3xl text-indigo-500">Inflatable Tent</h3>
+            <p className="text-slate-500 mt-auto">
               $100/day
             </p>
           </div>
-          <div className="w-1/3 h-40 bg-transparent text-black text-center pt-8 flex flex-col">
-            <h3 className="text-3xl text-indigo-500">Custom Props <br />and Backdrops</h3>
-            <p className="text-slate-500 text-md mt-auto">
+          <div className="w-1/2 md:w-1/3 h-40 bg-transparent text-black text-center pt-8 flex flex-col">
+            <h3 className="text-xl md:text-3xl text-indigo-500">Custom Props <br />and Backdrops</h3>
+            <p className="text-slate-500 mt-auto">
               contact for price estimate
             </p>
           </div>

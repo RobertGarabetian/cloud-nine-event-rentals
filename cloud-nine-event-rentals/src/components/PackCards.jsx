@@ -15,7 +15,7 @@ const PackCards = () => {
               <li>Props</li>
               <li>White backdrop</li>
             </ul>
-            <p className="text-slate-500 flex flex-col text-md bottom-0 justify-end">from $150/hour</p>
+            <p className="text-slate-500 flex flex-col bottom-0 justify-end">from $150/hour</p>
         </div>
         <figure className="lg:w-2/5 w-full h-full overflow-hidden">
           <img
@@ -46,7 +46,7 @@ const PackCards = () => {
             <li>White backdrop</li>
             <li>Physical photo strips printed immediately</li>
           </ul>
-          <p className="text-slate-500 flex flex-col text-md bottom-0 justify-end">from $200/hour</p>
+          <p className="text-slate-500 flex flex-col bottom-0 justify-end">from $200/hour</p>
         </div>
       </div> 
 

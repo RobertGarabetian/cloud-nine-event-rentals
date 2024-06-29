@@ -8,7 +8,7 @@ const Cards = (props) => {
   return (
     <div
       ref={ref}
-      className="card lg:card-side bg-base-100 shadow-xl w-4/5 bg-transparent"
+      className="card lg:card-side bg-base-100 shadow-xl w-full lg:w-4/5 bg-transparent"
       style={{
         transform: isInView ? "none" : "translateX(-200px)",
         opacity: isInView ? 1 : 0,

@@ -51,14 +51,14 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Item 2</a>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            <button onClick={() => navigate("/packages")} className="">Packages</button>
+          </li>
+          <li>
+            <button onClick={()=> navigate("/aboutus")} className="">About Us</button>
+          </li>
+          <li>
+            <button onClick={()=>navigate("/contact")} className="">Contact</button>
+          </li>
           </ul>
         </div>
         <button onClick={()=>navigate("/")}className="btn btn-ghost font-medium text-2xl px-10">
@@ -68,12 +68,7 @@ const Navbar = () => {
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-10 font-normal text-xl text-white">
           <li>
-            <button
-              onClick={() => navigate("/packages")}
-              className=""
-            >
-              Packages
-            </button>
+            <button onClick={() => navigate("/packages")} className="">Packages</button>
           </li>
           <li>
             <button onClick={()=> navigate("/aboutus")} className="">About Us</button>
