@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    console.log(latest);
+    // console.log(latest);
   });
 
   return (
