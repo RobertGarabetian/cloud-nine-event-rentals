@@ -1,4 +1,5 @@
 import "../styles.css";
+import {motion} from 'framer-motion';
 const PackCards = () => {
   return (
     <div className="flex flex-col space-y-36 w-screen p-4 md:p-20">
@@ -18,7 +19,10 @@ const PackCards = () => {
             <p className="text-slate-500 flex flex-col bottom-0 justify-end">from $150/hour</p>
         </div>
         <figure className="lg:w-2/5 w-full h-full overflow-hidden">
-          <img
+          <motion.img
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:0.5}}
             src="2.jpg"
             alt="Album"
             className="w-full h-full object-cover rounded-sm"
@@ -28,7 +32,10 @@ const PackCards = () => {
 
        <div className="card lg:card-side bg-transparent w-full lg:h-[600px] rounded-none ">
         <figure className="order-last lg:order-first lg:w-2/5 w-full h-full overflow-hidden">
-          <img
+          <motion.img
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:0.5}}
             src="3.jpg"
             alt="Album"
             className="w-full h-full object-cover rounded-sm"
