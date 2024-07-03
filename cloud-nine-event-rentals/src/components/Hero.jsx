@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <div
       className="hero h-5/6 fixed top-0 left-0 z-0 w-screen"
@@ -13,7 +17,7 @@ const Hero = () => {
           <h2 className="mb-5 text-slate-200 text-xl font-semibold ">
             Make Your Memories Last a Lifetime!
           </h2>
-          <button className="btn btn-primary">Get in Contact!</button>
+          <button onClick={()=>navigate("/contact")} className="btn btn-primary">Get in Contact!</button>
         </div>
       </div>
     </div>
