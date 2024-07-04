@@ -10,7 +10,7 @@ const Cards = (props) => {
       ref={ref}
       className="card lg:card-side bg-base-100 shadow-xl w-full lg:w-4/5 bg-transparent"
       style={{
-        transform: isInView ? "none" : "translateX(-200px)",
+        // transform: isInView ? "none" : "translateX(-200px)",
         opacity: isInView ? 1 : 0.4,
         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0s",
       }}
