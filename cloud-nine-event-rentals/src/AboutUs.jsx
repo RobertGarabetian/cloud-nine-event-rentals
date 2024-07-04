@@ -18,7 +18,7 @@ const AboutUs = () => {
         <div className="h-1/6 w-full bg-slate-400 " />
         <div className="w-full h-5/6 bg-white ">
           <motion.div
-            className="text-slate-400 h-full text-center px-4 md:px-20
+            className="text-slate-400 h-full text-center py-4 md:py-0 px-4 md:px-20
             font-light flex flex-col justify-center "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
