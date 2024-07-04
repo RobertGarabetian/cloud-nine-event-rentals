@@ -44,11 +44,11 @@ const AboutUs = () => {
         initial={{ height: "0" }} // Initial height
         animate={{ height: "100%" }} // Target height
         transition={{ duration: 0.5 }} // Transition duration
-        className="bg-white md:bg-slate-400 col-span-5 md:col-span-2 row-span-4 col-start-1 row-start-2 flex items-center"
+        className="bg-white md:bg-slate-400 col-span-5 md:col-span-2 row-span-4 col-start-1 row-start-2 flex flex-col text-center justify-center"
       >
         
         <motion.div
-          className="text-slate-400 h-full text-center px-12
+          className="text-slate-400 h-full px-12
             font-light flex md:hidden flex-col justify-center "
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
