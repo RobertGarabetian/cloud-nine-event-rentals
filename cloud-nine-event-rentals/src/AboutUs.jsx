@@ -54,7 +54,7 @@ const AboutUs = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-4xl font-bold pt-4">
             At Cloud 9 Event Rentals, we believe that every event deserves to be{" "}
             <span className="text-purple-300">memorable...</span>
           </h1>
