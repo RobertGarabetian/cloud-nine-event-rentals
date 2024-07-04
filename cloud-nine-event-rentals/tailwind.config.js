@@ -6,7 +6,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        '5/6vh': 'calc(5/6 * 100vh)',
+      },
+    },
   },
   plugins: [
     daisyui,

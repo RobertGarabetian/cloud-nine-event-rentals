@@ -17,7 +17,7 @@ const MidSection = () => {
   ];
 
   return (
-    <div className="bg-white flex flex-col absolute py-20 px-4 z-10 mt-[570px] md:mt-[730px] w-full items-center space-y-10">
+    <div className="bg-white flex flex-col absolute py-20 px-4 z-10 mt-5/6vh md:mt-[730px] w-full items-center space-y-10">
 
       {info.map((card, index) => (
         <Cards key={index} image={card.image} text={card.text} />
