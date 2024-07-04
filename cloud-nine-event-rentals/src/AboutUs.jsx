@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <div className="w-screen h-screen grid grid-cols-5 grid-rows-5 md:grid-rows-3">
       <div className="p-4 md:p-10 bg-slate-400 row-span-1 col-span-5 md:col-span-2 flex items-end">
-        <h1 class="p-2 text-6xl md:text-8xl font-bold text-white">About Us</h1>
+        <h1 class="p-2 text-5xl md:text-8xl font-bold text-white">About Us</h1>
       </div>
       <motion.div
         initial={{ width: "0px" }} // Initial height

@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       margin: {
-        '5/6vh': 'calc(5/6 * 100vh)',
+        'mobile-margin': 'calc(2/3 * 100vh)',
       },
     },
   },

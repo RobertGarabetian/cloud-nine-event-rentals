@@ -3,7 +3,7 @@ const Contact = () => {
   return (
     <div className="w-screen h-screen grid grid-cols-2 grid-rows-5 md:grid-rows-6">
       <div className="p-4 md:p-10 bg-slate-400 row-span-1 md:row-span-2 col-span-2 flex items-end">
-        <h1 class="p-2 text-6xl md:text-8xl font-bold text-white">Contact</h1>
+        <h1 class="p-2 text-5xl md:text-8xl font-bold text-white">Contact</h1>
       </div>
       <div
         className="col-start-1 col-span-2 md:col-span-1 row-start-2 md:row-start-3 md:row-span-4 bg-white origin-bottom flex flex-col justify-center text-center">
